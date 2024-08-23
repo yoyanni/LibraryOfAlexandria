@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "2cee086938f879eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "19990d166b47affa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f1c59a6c65b1514",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/Spring Certified Professional/! - Summary/To DO.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "5b09fd519de69bc5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b62e0442342c3243",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/Spring Certified Professional/3 - Spring Boot/7 - Actuator/3 - Health Indicators.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "679addaea943bee7",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f9d3bb89a66af23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58e8f94ae97eb431",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ce1fb448a55a613d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "312c060a57a29d06",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 379.5
+  },
+  "right": {
+    "id": "8990ff023f8de4d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ab136b3fb196312",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "82b9a01ae05e33e4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Java/Spring Certified Professional/! - Summary/To DO.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4baeef1ab5d0477b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Java/Spring Certified Professional/! - Summary/To DO.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f27ef35858508622",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "80c82524228ad06f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Java/Spring Certified Professional/! - Summary/To DO.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2f1c59a6c65b1514",
+  "lastOpenFiles": [
+    "Java/Spring Certified Professional/0 - Building REST API with Spring Boot/2 - Developing a Secure App/1 - Implementing POST.md",
+    "Java/Spring Certified Professional/! - Summary/To DO.md",
+    "Java/Spring Certified Professional/3 - Spring Boot/5 - Spring Boot Testing/2 - Perform Slice Testing.md",
+    "Java/Spring Certified Professional/! - Summary/14 - Spring Boot Testing.md",
+    "Java/Spring Certified Professional/! - Summary/15 - Spring Security.md",
+    "Java/Spring Certified Professional/3 - Spring Boot/6 - Securing REST Application with Spring Security/1 - URL Authorisation.md",
+    "Java/Spring Certified Professional/! - Summary/3 - Components.md",
+    "Java/Spring Certified Professional/2 - Spring Framework Essentials/1 - Java Configuration/3 - Bean Scopes.md",
+    "Java/Spring Certified Professional/! - Summary/5 - Aspect Oriented Programming.md",
+    "Java/Spring Certified Professional/! - Summary/16 - Actuators, Metrics and Health Indicators.md",
+    "Java/Spring Certified Professional/3 - Spring Boot/7 - Actuator/3 - Health Indicators.md",
+    "Images/Java/Pasted image 20240823140741.png",
+    "Java/Spring Certified Professional/3 - Spring Boot/7 - Actuator/2 - Metrics.md",
+    "Java/Spring Certified Professional/3 - Spring Boot/7 - Actuator/1 - Setting up Actuators.md",
+    "Java/Spring Certified Professional/3 - Spring Boot/7 - Actuator/0 - Actuators, Metrics and Health Indicators.md",
+    "Java/Spring Certified Professional/3 - Spring Boot/6 - Securing REST Application with Spring Security/3 - Method Security and testing.md",
+    "Java/Spring Certified Professional/3 - Spring Boot/6 - Securing REST Application with Spring Security/0 - Securing REST Application with Spring Security.md",
+    "Java/Spring Certified Professional/3 - Spring Boot/6 - Securing REST Application with Spring Security/2 - Configuring Web Authentication.md",
+    "Java/Spring Certified Professional/3 - Spring Boot/5 - Spring Boot Testing/1 - Perform MockMVC Testing.md",
+    "Java/Spring Certified Professional/3 - Spring Boot/5 - Spring Boot Testing/0 - Spring Boot Testing.md",
+    "Java/Spring Certified Professional/! - Summary/! - Quick Overview.md",
+    "Java/Spring Certified Professional/! - Summary/6 - Testing.md",
+    "Java/Spring Certified Professional/! - Summary/9 - Spring Boot.md",
+    "Java/Spring Certified Professional/! - Summary/12 - Spring MVC & Web.md",
+    "Java/Spring Certified Professional/! - Summary/1 - Application Context.md",
+    "Java/Spring Certified Professional/! - Summary/2 - Configuration.md",
+    "Java/Spring Certified Professional/2 - Spring Framework Essentials/3 - Component Scanning/0 - Annotation-based Configuration.md",
+    "Java/Spring Certified Professional/! - Summary",
+    "Images/Java/Pasted image 20240816164514.png",
+    "Images/Java/Pasted image 20240816164358.png",
+    "Images/Java/Pasted image 20240816164248.png",
+    "Images/Java/Pasted image 20240816164154.png",
+    "Images/Java/Pasted image 20240816164130.png",
+    "Images/Java/Pasted image 20240816164020.png",
+    "Images/Java/Pasted image 20240816163835.png",
+    "Images/Java/Pasted image 20240816163739.png",
+    "Images/Java/Pasted image 20240816163624.png",
+    "Java/Spring Certified Professional/3 - Spring Boot/7 - Actuator",
+    "Java/Spring Certified Professional/3 - Spring Boot/6 - Securing REST Application with Spring Security",
+    "Java/Web Development",
+    "Java/Spring Certified Professional/3 - Spring Boot/5 - Spring Boot Testing",
+    "Java/Spring Certified Professional/3 - Spring Boot/4 - RESTful application with Spring Boot",
+    "Java/Spring Certified Professional/3 - Spring Boot/3 - Web Application with Spring Boot",
+    "Java/Spring Certified Professional/3 - Spring Boot/2 - Spring Boot - Spring Data JPA",
+    "Java/Spring Certified Professional/3 - Spring Boot/1 - Spring Boot - A Closer Look",
+    "Java/Spring Certified Professional/3 - Spring Boot/0 - Spring Boot Feature Introduction",
+    "Untitled.canvas"
+  ]
+}
