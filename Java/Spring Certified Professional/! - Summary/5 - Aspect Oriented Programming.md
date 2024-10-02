@@ -74,7 +74,9 @@ An **enhanced** class that stands in place of your original with extra behaviour
 
 # How to enable Aspects?
 
-For the AspectJ config style, you can use `@EnableAspectJAutoProxy` in the Aspect config file to enable the aspects but you must also import your config to the main config file.
+For the AspectJ config style, you can use `@EnableAspectJAutoProxy` in the Aspect config file to enable the aspects.
+
+**NOTE:** You must also import your config to the main config file.
 
 [[1 - Core AOP Concepts and Quick Start#Configure Aspect as a Bean|Details]]
 

@@ -133,13 +133,19 @@ Full auto-configuration is disabled and instead apply only configurations releva
 `@Mock`:
 - From the Mockito Framework
 - Use it when Spring context is not needed
+	- Can be applied to: %% Addition from Udemy exam practise %%
+		- Fields
+		- Parameters
 
 `@MockBean`:
 - From Spring Boot Framework
 - Use it when Spring context is needed
+	- Can be applied to: %% Addition from Udemy exam practise %%
+		- Classes
+		- Fields
 - Creates a new mock bean when it is not present in the context or replaces it with a mock bean when it is present
 
-##
+
 # What happens when you are Repository Slice Testing with `@DataJpaTest`?
 
 Should be used when a test focuses only on JPA components since it only loads `@Repository` beans and excludes the other `@Components`.

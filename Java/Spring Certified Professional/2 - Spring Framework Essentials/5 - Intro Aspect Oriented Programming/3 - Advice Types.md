@@ -64,7 +64,7 @@ Use `@Around` annotation and a ***ProceedingJoinPoint***
 
 # Limitations of Spring AOP
 
-- Can only advise non-private methods
+- Can only advise ***public*** (non-private) methods
 - Can only apply aspects to Spring Beans
 - Limitations of weaving with proxies
 	- When using proxies, suppose method a() calls method b() on the same class/interface

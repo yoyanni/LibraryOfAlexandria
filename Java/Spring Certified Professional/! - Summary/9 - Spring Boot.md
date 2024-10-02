@@ -109,6 +109,9 @@ There are hundreds of pre-defined properties which are used by Spring-provided `
 
 [[2 - Override Default Configuration#Example Controlling Logging Level|Example of an Controlling Logging Level]]
 
+%% Addition from Practise Tests from Udemy%%
+[[3 - Components#Can beans be overridden?|Example of setting bean definition override behaviour]]
+%% Addition end %%
 ##### Where to Define Spring Boot Specific Properties
 
 The ***application.properties/yml*** is best used to define Spring Boot properties as they can get read early enough to affect all autoconfiguration possibilities.
@@ -234,6 +237,12 @@ You can avoid explicitly providing a app class if the `@SpringBootConfiguration`
 
 [[1 - Package and Integration Testing#Testing `@SpringBootConfiguration`|Example]]
 
+%% Addition from Udemy Practise exams %%
+# Default Error Handling
+
+Spring Boot has built-in error handling through the `BasicErrorController` which is a part of the Spring Boot Actuator. By default, when an error occurs, Spring Boot provides a default error page with a generic message and status code.
+
+%% addition end %%
 # How can I get started with Spring Boot?
 
 You can use the web-based tool **Spring Initializr** that simplifies the setup and creation of new Spring Boot projects. It provides a user-friendly interface that allows developers to quickly generate a new Spring Boot application with preconfigured dependencies, project structure, and build files (Maven or Gradle).

@@ -5,8 +5,20 @@ A component/bean is an annotated class that is managed by the Spring IoC/DI cont
 # How are they defined?
 
 Spring beans can be defined:
-- Explicitly using `@Bean` methods inside a configuration class
+- Explicitly using `@Bean` methods inside a configuration class (which is annotated with `@Configuration`)
 - Implicitly using `@Component` and component-scanning
+
+%% Addition from Practise Tests from Udemy%%
+You can also define a bean by:
+- Calling `DefaultListableBeanFactory.registerBeanDefinition`
+- <bean/> in XML
+
+## Can beans be overridden?
+
+In Spring, you are able to override bean definitions (controllable with `COnfigureableListableBeanFactory`) but in Spring Boot you are ***not*** able.
+
+You are able to alter the property `spring.main.allow-bean-definition-overriding` to ***true*** which allows overriding of bean definitions.
+%% Addition end %%
 
 # What are Scopes?
 

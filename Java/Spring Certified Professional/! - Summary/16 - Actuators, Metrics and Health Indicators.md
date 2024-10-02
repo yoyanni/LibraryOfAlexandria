@@ -41,7 +41,6 @@ By adding the Actuator library it adds many monitoring features which are access
 
 [[0 - Actuators, Metrics and Health Indicators#`/actuator/health`|Example]]
 
-
 ## ## What does `/metrics` provide?
 
 - List of generic and custom metrics which are measured by the application.
@@ -88,7 +87,6 @@ If endpoints are exposed explicitly, default are overridden.
 ## Example
 
 [[1 - Setting up Actuators#Secure Endpoints - Aligned with Spring Security|Secure Endpoints aligned with Spring Security]]
-
 
 
 # Metrics

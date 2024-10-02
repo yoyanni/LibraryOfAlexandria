@@ -125,6 +125,7 @@ The use of `static` is recommended for `@Bean` methods.
 
 Beans have to be created in the right order, that would be:
 - First must be the dependencies
+	- %% Addition from Udemy tests - [[2 - Configuration#How do you inject dependencies?|How do you inject dependencies?]] %%
 - Secondly the beans are created.
 
 There are two steps:
@@ -216,7 +217,7 @@ The **Proxy*** is created during the initialisation phase by a ***BeanPostProces
 
 ##### What kinds of Proxies are there?
 
-- JDK
+- JDK (dynamic proxies)
 - CGLib - Spring Boot will always prefer this one
 
 [[2 - Use and Destroy Phases#Kinds of Proxies|Details/Picture]]

@@ -76,7 +76,7 @@ You may prefer to use an ORM for this, you could use:
 #### What is the RowMapper?
 
 Spring provides a `RowMapper` interface for mapping a single row of a ResultSet to an object.
-- It can be used for both sing and multiple row queries
+- It can be used for both single and multiple row queries
 - Parameter can be provided to define the return-type.
 
 [[2 - Working with ResultSets using Callbacks#RowMapper for mapping a row|Example]]

@@ -18,8 +18,10 @@ A set of tasks which take place as a single, indivisible action.
 There are 3 steps you need to take:
 - Declare a `PlatformTransactionManager` bean
 - Declare the transactional methods
-	- Using Annotations (recommended) or Programmatically
-		- Can mix and match
+	- A declarative approach 
+		- Using Annotations (recommended)
+	- A programmatic approach
+		- using `TransactionTemplate` %% Addition from Udemy Practise exam %% 
 - Add `@EnableTransactionManagement` to a config class
 
 ## How to configure Transactions?
@@ -53,7 +55,7 @@ Create the required implementation, just like any other Spring bean and configur
 
 [[1 - Spring Transaction Management#Accessing a JTA Transaction Manager|JTA Transactional Manager Example]]
 
-## When is Transaction used?
+## Transactions are bound to the current thread.
 
 The Transaction context is bound to the current thread, which holds the underlying Jdbc connection.
 
@@ -98,6 +100,31 @@ There are 7 levels of propagation, the below examples will only show `REQUIRED` 
 
 [[2 - Configure Transaction Propagation#REQUIRES_NEW|Details]]
 
+%% Addition from Udemy Exam Practises %%
+# What are Isolation levels?
+
+Transaction isolation levels are essential in database systems to manage concurrent access to data. When multiple transactions run simultaneously, they can interact with each other in unintended ways, leading to various anomalies and inconsistencies. Isolation levels help control these interactions by defining the visibility and accessibility of data across transactions.
+
+The isolation levels are:
+- **READ_UNCOMMITTED (Lowest Isolation, Highest Concurrency)**:
+    - Allows all anomalies (dirty reads, non-repeatable reads, phantom reads).
+    - Prioritizes performance over consistency.
+- **READ_COMMITTED**:
+    - Prevents dirty reads but allows non-repeatable and phantom reads.
+    - Balances performance and consistency, commonly used as a default in many databases.
+- **REPEATABLE_READ**:
+    - Prevents dirty reads and non-repeatable reads but allows phantom reads.
+    - Offers stronger consistency guarantees with a moderate impact on concurrency.
+- **SERIALIZABLE (Highest Isolation, Lowest Concurrency)**:
+    - Prevents all anomalies (dirty reads, non-repeatable reads, phantom reads).
+    - Provides the strictest consistency but significantly reduces concurrency and performance.
+
+### What are the reasons we need these levels?
+
+- **Dirty Reads**: Reading uncommitted changes made by another transaction.
+- **Non-repeatable Reads**: Reading the same data multiple times yields different results due to changes made by other transactions.
+- **Phantom Reads**: A query executed multiple times returns a different set of rows due to insertions or deletions by other transactions.
+- **Lost Updates**: Concurrent transactions overwrite each other's updates.
 
 # Rollback Rules
 

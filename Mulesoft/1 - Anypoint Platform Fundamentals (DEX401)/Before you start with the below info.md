@@ -1,0 +1,1 @@
+The first 5 modules in this course are the same modules that were in MAX150. View those and come back.

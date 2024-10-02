@@ -27,6 +27,15 @@ With the help of `@Import`, you can use multiple files to adhere to:
 
 [[2 - Handling Multiple Configurations#But Avoid "Tramp Data"|About Tramp Data]]
 
+%% Addition from Practise Tests from Udemy%%
+# How do you inject dependencies?
+
+- Constructor Argument - Implicit Constructor injection
+- `@Autowired` - Explicit Constructor injection
+- Setter methods
+- XML Configuration
+
+%% Addition end %%
 # What is Constructor Injection?
 
 It is another way to pass dependencies to the main configuration file with the help with `@Autowired`.

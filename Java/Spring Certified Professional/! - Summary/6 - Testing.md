@@ -73,6 +73,12 @@ With the help of JUnit 5's `@ExtendWith` annotation and Spring's extension point
 
 [[1 - Write Integration Tests using Spring#Using Spring's Test Support|Example]]
 
+%% Addition from Udemy exam practise %%
+### The superseded `@RunWith` and SpringRunner.class
+
+Instead of using `@RunWith(SpringRunner.class)`, you use `@ExtendWith(SpringExtension.class)` in JUnit 5 tests.
+
+%% addition end %%
 ### Is there a faster/easier way to connect them?
 
 Yes, there is! By using `@SpringJUnitConfig` composed annotation, it combines `@ExtendWith` from JUnit and  `@ContextConfiguration` from Spring.
